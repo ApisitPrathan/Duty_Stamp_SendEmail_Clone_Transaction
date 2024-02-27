@@ -1,0 +1,95 @@
+2566-12-08 17:05:37 File Created
+2566-12-08 17:05:37 Start Duty Stamp SendEmail Clone Transaction
+2566-12-08 17:05:40 Clone Trasaction is 0rows
+2566-12-08 17:06:35 Start Duty Stamp SendEmail Clone Transaction
+2566-12-08 17:06:39 Clone Trasaction is 1rows
+2566-12-08 17:19:56 Start Duty Stamp SendEmail Clone Transaction
+2566-12-08 17:19:59 Clone Trasaction is 2rows
+2566-12-08 17:20:52 Start Duty Stamp SendEmail Clone Transaction
+2566-12-08 17:20:58 Clone Trasaction is 1rows
+2566-12-08 17:25:46 Start Duty Stamp SendEmail Clone Transaction
+2566-12-08 17:25:48 Clone Trasaction is 1rows
+2566-12-08 18:02:09 Start Duty Stamp SendEmail Clone Transaction
+2566-12-08 18:02:11 Clone Trasaction is 1rows
+2566-12-08 18:04:38 Success Update Clone transaction<br/>
+2566-12-08 18:04:38 End Duty Stamp SendEmail Clone Transaction
+2566-12-08 18:04:47 Start Duty Stamp SendEmail Clone Transaction
+2566-12-08 18:04:48 Clone Trasaction is 1rows
+2566-12-08 18:10:25 Start Duty Stamp SendEmail Clone Transaction
+2566-12-08 18:10:26 Clone Trasaction is 1rows
+2566-12-08 18:13:31 Start Duty Stamp SendEmail Clone Transaction
+2566-12-08 18:13:32 Clone Trasaction is 1rows
+2566-12-08 18:15:59 Start Duty Stamp SendEmail Clone Transaction
+2566-12-08 18:16:01 Clone Trasaction is 1rows
+2566-12-08 18:20:38 Start Duty Stamp SendEmail Clone Transaction
+2566-12-08 18:20:39 Clone Trasaction is 1rows
+2566-12-08 18:22:12 Start Duty Stamp SendEmail Clone Transaction
+2566-12-08 18:22:13 Clone Trasaction is 1rows
+2566-12-08 18:23:24 Success Update Clone transaction<br/>
+2566-12-08 18:24:49 Start Duty Stamp SendEmail Clone Transaction
+2566-12-08 18:24:50 Clone Trasaction is 3rows
+2566-12-08 18:25:28 Success Update Clone transaction<br/>
+2566-12-08 18:25:29 End Duty Stamp SendEmail Clone Transaction
+2566-12-08 18:38:49 Start Duty Stamp SendEmail Clone Transaction
+2566-12-08 18:38:50 Clone Trasaction is 1rows
+2566-12-08 18:38:55 Success Update Clone transaction<br/>
+2566-12-08 18:38:55 End Duty Stamp SendEmail Clone Transaction
+2566-12-08 20:20:48 Start Duty Stamp SendEmail Clone Transaction
+2566-12-08 20:20:49 Clone Trasaction is 1rows
+2566-12-08 20:20:50 Error UpdateFlagToTransection Message : Trying to pass a table-valued parameter with 42 column(s) where the corresponding user-defined table type requires 41 column(s).<br/>StackTrace :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__144`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Duty_Stamp_SendEmail_Clone_Transaction.Business.UpdateFlag.UpdateFlagToTransection(List`1 _t) in C:\Users\thpratha\Documents\Project\Duty Stamp\Programe\Duty_Stemp_Console\Duty_Stamp_SendEmail_Clone_Transaction\Duty_Stamp_SendEmail_Clone_Transaction\Business\UpdateFlag.cs:line 32
+2566-12-08 20:20:50 End Duty Stamp SendEmail Clone Transaction
+2566-12-08 20:24:27 Start Duty Stamp SendEmail Clone Transaction
+2566-12-08 20:24:28 Clone Trasaction is 1rows
+2566-12-08 20:26:39 Start Duty Stamp SendEmail Clone Transaction
+2566-12-08 20:26:40 Clone Trasaction is 1rows
+2566-12-08 20:26:41 Success Update Clone transaction<br/>
+2566-12-08 20:26:41 End Duty Stamp SendEmail Clone Transaction
+2566-12-08 21:03:16 Start Duty Stamp SendEmail Clone Transaction
+2566-12-08 21:03:18 Clone Trasaction is 1rows
+2566-12-08 21:03:19 Success Update Clone transaction<br/>
+2566-12-08 21:03:19 End Duty Stamp SendEmail Clone Transaction
+2566-12-08 23:26:41 Start Duty Stamp SendEmail Clone Transaction
+2566-12-08 23:26:42 Clone Trasaction is 1rows
+2566-12-08 23:26:43 Success Update Clone transaction<br/>
+2566-12-08 23:26:43 End Duty Stamp SendEmail Clone Transaction
+2566-12-12 11:11:31 Start Duty Stamp SendEmail Clone Transaction
+2566-12-12 11:11:33 Clone Trasaction is 1rows
+2566-12-12 11:11:35 Success Update Clone transaction<br/>
+2566-12-12 11:11:35 End Duty Stamp SendEmail Clone Transaction
+2566-12-18 10:44:03 Start Duty Stamp SendEmail Clone Transaction
+2566-12-18 10:44:05 Clone Trasaction is 1rows
+2566-12-18 10:44:05 Success Update Clone transaction<br/>
+2566-12-18 10:44:05 End Duty Stamp SendEmail Clone Transaction
+2566-12-18 11:08:05 Start Duty Stamp SendEmail Clone Transaction
+2566-12-18 11:08:06 Clone Trasaction is 1rows
+2566-12-18 11:08:07 Success Update Clone transaction<br/>
+2566-12-18 11:08:07 End Duty Stamp SendEmail Clone Transaction
+2566-12-19 11:04:22 Start Duty Stamp SendEmail Clone Transaction
+2566-12-19 11:04:23 Clone Trasaction is 1rows
+2566-12-19 11:04:23 Success Update Clone transaction<br/>
+2566-12-19 11:04:23 End Duty Stamp SendEmail Clone Transaction
+2566-12-19 13:21:40 Start Duty Stamp SendEmail Clone Transaction
+2566-12-19 13:21:51 Clone Trasaction is 1rows
+2566-12-19 13:21:51 Success Update Clone transaction<br/>
+2566-12-19 13:21:51 End Duty Stamp SendEmail Clone Transaction
+2566-12-28 14:53:54 Start Duty Stamp SendEmail Clone Transaction
+2566-12-28 14:53:55 Clone Trasaction is 0rows
+2566-12-28 14:53:55 End Duty Stamp SendEmail Clone Transaction

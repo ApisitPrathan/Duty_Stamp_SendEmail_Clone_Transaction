@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Duty_Stamp_SendEmail_Clone_Transaction", "Duty_Stamp_SendEmail_Clone_Transaction\Duty_Stamp_SendEmail_Clone_Transaction.csproj", "{EDCAEECB-C092-48F0-A0E2-EFD3B50067DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDCAEECB-C092-48F0-A0E2-EFD3B50067DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDCAEECB-C092-48F0-A0E2-EFD3B50067DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDCAEECB-C092-48F0-A0E2-EFD3B50067DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDCAEECB-C092-48F0-A0E2-EFD3B50067DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1221E420-0DD8-45CB-94E9-BE47D3E2FA92}
+	EndGlobalSection
+EndGlobal
